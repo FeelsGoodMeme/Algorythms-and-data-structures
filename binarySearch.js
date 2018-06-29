@@ -10,7 +10,7 @@
                return mid;
            }
            if (guess > item) {
-               high = mid - 1;
+               high = mid + 1;
            } else {
                low = mid + 1;
            }
